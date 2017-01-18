@@ -1,24 +1,22 @@
-import React, {Component} from 'react';
+import React from 'react';
 import ReactDom from 'react-dom';
-import Logo from './logo';
+import { Provider } from 'react-redux';
+import { Router, browserHistory } from 'react-router';
+import { syncHistoryWithStore } from 'react-router-redux';
+import configureStore from './store';
+import routes from './routes';
 
-class App extends React.Component {
 
-    constructor(props) {
-        super (props);
-    }
 
-    render(){
-        return (
-            <div className="logo">
-            <h1>App works!</h1>
-        <Logo />
-        </div>
-    );
-    }
-}
+const store = configureStore();
+const history = syncHistoryWithStore(browserHistory, store);
 
-ReactDom.render(
-<App />,
-    document.getElementById('app')
-);
+ReactDom.render((
+    <Provider store = { store }>
+        <Router history = { history }>
+            { routes }
+        </Router>
+    </Provider>
+), 
+document.querySelector('#app'));
+
