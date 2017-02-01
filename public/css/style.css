@@ -1,0 +1,21 @@
+.logo {
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+    white-space: nowrap;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #606060
+}
+.logo_logo {
+    float: left;
+    width: 380px;
+    height: 184px;
+}
+.logo_swarovsky{
+    width: 184px;
+    height: 184px;
+}
+.logo_time{
+    width: 630px;
+    float: left;
+    text-align: center;}

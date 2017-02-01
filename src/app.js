@@ -1,16 +1,20 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 import { Header } from './components/index'
 import { DevTools } from './utils/index';
 
 export default class App extends React.Component {
 
+    static PropTypes = {
+        children: PropTypes.any.isRequired
+    };
     static path = '/';
 
-    render () {
+    render() {
         return (
             <div>
-                <Header />
-                { process.env.NODE_ENV !== 'production' ? <DevTools /> : null}
+                < Header />
+                { this.props.children }
+                { process.env.NODE_ENV !== 'production' ? <DevTools /> : null }
             </div>
         );
     }
