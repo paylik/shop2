@@ -1,10 +1,11 @@
-.logo {
-    max-width: 1200px;
-    margin: auto;
-    padding: 15px;
-    white-space: nowrap;
+body {
+    background-color: #ecf9f8;
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #606060
+
+}
+.page {
+    background-color: #fff;
+    margin: 20px 50px;
 }
 .logo_logo {
     float: left;
@@ -15,7 +16,62 @@
     width: 184px;
     height: 184px;
 }
+.logo {
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+    white-space: nowrap;
+    color: #606060
+}
 .logo_time{
-    width: 630px;
+    width: 530px;
     float: left;
-    text-align: center;}
+    text-align: center;
+}
+nav{
+    clear: both;
+    margin: 15px;
+}
+nav ul li {
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.3em;
+    cursor: pointer;
+    padding: 5px;
+    background-color: #ecf9f8;
+}
+nav ul li:hover {
+    background-color: #81d8cf;
+}
+.hovered {
+    border: 1px solid #81d8cf
+}
+.hovered ul li {
+    font-size: 1.1em;
+    background-color: #fff;
+    width: 480px;
+    text-align: left;
+}
+.hovered ul li img{
+    padding: 5px 45px;
+    position: relative;
+    top: 10px;
+}
+article{
+    padding: 15px;
+}
+article h2{
+    text-align: center;
+}
+
+.left{
+    float: left;
+    margin-right: 20px;
+}
+footer{
+    text-align: center;
+    background-color: #ecf9f8;
+}
