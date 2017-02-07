@@ -10,7 +10,7 @@ export default class Header extends React.Component {
         return (
             <div>
                  <div className='logo'>
-                    <div className='logo_logo'> <a href='index.html'><img src='img/logo-jenavi-smorgon-3.png' alt='logo' width={380} height={184} /></a>
+                    <div className='logo_logo'> <Link to='/products'><img src='img/logo-jenavi-smorgon-3.png' alt='logo' width={380} height={184} /></Link>
                     </div>
                     <div className='logo_time'>
                         <h2>ТОРГОВЫЙ ОБЪЕКТ 'ЖЕНАВИ' </h2>
@@ -22,13 +22,13 @@ export default class Header extends React.Component {
                 </div>
                 <nav> 
                  <ul>
-                    <li>Главная</li>
-                    <li>Продукция</li>
-                    <li>Видео</li>
-                    <li>Акции</li>
-                    <li>Подарочные <br /> сертификаты</li>
-                    <li>Гарантии</li>
-                    <li>О нас</li>
+                     <Link to='/'><li>Главная</li></Link>
+                     <Link to='/products'><li>Продукция</li></Link>
+                     <Link to='/video'><li>Видео</li></Link>
+                     <Link to='/shares'><li>Акции</li></Link>
+                     <Link to='/certificate'><li>Подарочные <br /> сертификаты</li></Link>
+                     <Link to='/guarantees'><li>Гарантии</li></Link>
+                     <Link to='/contact'><li>О нас</li></Link>
                 </ul>
                     <div className='hovered'>
                         <div className='prod'>

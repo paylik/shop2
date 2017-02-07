@@ -32,7 +32,7 @@ nav{
     clear: both;
     margin: 15px;
 }
-nav ul li {
+nav ul li a {
     display: inline-block;
     width: 140px;
     height: 45px;
@@ -42,6 +42,7 @@ nav ul li {
     cursor: pointer;
     padding: 5px;
     background-color: #ecf9f8;
+    text-decoration: none;
 }
 nav ul li:hover {
     background-color: #81d8cf;
