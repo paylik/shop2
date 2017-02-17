@@ -18,7 +18,7 @@ export default class Header extends React.Component {
                             пн-пт 10<sup>00</sup>-20<sup>00</sup>, сб-вс 10<sup>00</sup>-19<sup>00</sup>, перерыв 14<sup>00</sup>-15<sup>00</sup></h3>
                         <p>Директор Ольга Николаевна +375-29-782-33-37 (мтс) </p>
                     </div>
-                    <div className='logo_swarovsky'><a href='img/scan.PDF'><img src='img/Swarovski-logo.jpg' width={184} height={184} alt='logo' /></a></div>
+                    <div className='logo_swarovsky'><a href='img/swarovski-sertificat.jpg'><img src='img/Swarovski-logo.jpg' width={184} height={184} alt='logo' /></a></div>
                 </div>
                 <nav> 
                  <ul>
@@ -33,16 +33,16 @@ export default class Header extends React.Component {
                     <div className='hovered'>
                         <div className='prod'>
                             <ul>
-                                <li><img src='img/logo-jenavi.jpg' width={62} height={30} />Бижутерия 'JENVI'</li>
-                                <li><img src='img/bigGlass.jpg' width={62} height={30} />Солнцезащитные очки</li>
-                                <li><img src='img/toys-small.jpg' width={62} height={30} />Мягкая игрушка</li>
-                                <li><img src='img/bow.jpg' width={62} height={30} />Аксессуары для волос </li>
-                                <li><img src='img/jevely-small.jpg' width={62} height={30} />Китайская бижутерия</li>
-                                <li><img src='img/clock.jpg' width={62} height={30} />Часы</li>
-                                <li><img src='img/purse-small.jpg' width={62} height={30} />Кошельки</li>
-                                <li><img src='img/money-box-small.jpg' width={60} height={30} />Копилки</li>
-                                <li><img src='img/gloves-small.jpg' width={62} height={30} />Перчатки и варешки</li>
-                                <li><img src='img/sert.jpg' width={62} height={30} />Сертификаты</li>
+                                <Link to='/jenavi'><li><img src='img/logo-jenavi.jpg' width={62} height={30} />Бижутерия 'JENAVI'</li></Link>
+                                <Link to='/glass'><li><img src='img/bigGlass.jpg' width={62} height={30} />Солнцезащитные очки</li></Link>
+                                <Link to='/toys'><li><img src='img/toys-small.jpg' width={62} height={30} />Мягкая игрушка</li></Link>
+                                <Link to='/bow'><li><img src='img/bow.jpg' width={62} height={30} />Аксессуары для волос </li></Link>
+                                <Link to='/jevely'><li><img src='img/jevely-small.jpg' width={62} height={30} />Китайская бижутерия</li></Link>
+                                <Link to='/clock'><li><img src='img/clock.jpg' width={62} height={30} />Часы</li></Link>
+                                <Link to='/purse'><li><img src='img/purse-small.jpg' width={62} height={30} />Кошельки</li></Link>
+                                <Link to='/box'><li><img src='img/money-box-small.jpg' width={60} height={30} />Копилки</li></Link>
+                                <Link to='/gloves'><li><img src='img/gloves-small.jpg' width={62} height={30} />Перчатки и варешки</li></Link>
+                                <Link to='/certificate'><li><img src='img/sert.jpg' width={62} height={30} />Сертификаты</li></Link>
                             </ul>
                         </div>
                     </div>

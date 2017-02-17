@@ -5,7 +5,7 @@ body {
 }
 .page {
     background-color: #fff;
-    margin: 20px 50px;
+    margin: -10px 50px 20px 50px;
 }
 .logo_logo {
     float: left;
@@ -32,7 +32,7 @@ nav{
     clear: both;
     margin: 15px;
 }
-nav ul li a {
+nav ul li {
     display: inline-block;
     width: 140px;
     height: 45px;
@@ -64,7 +64,8 @@ nav ul li:hover {
 article{
     padding: 15px;
 }
-article h2{
+article h2,
+.in{
     text-align: center;
 }
 
@@ -75,4 +76,36 @@ article h2{
 footer{
     text-align: center;
     background-color: #ecf9f8;
+    padding-top: 10px;
+}
+.cert,
+.share,
+.prod,
+.guarantees,
+.bow,
+.clock,
+.glass,
+.gloves,
+.jenavi,
+.jevely,
+.box,
+.purse,
+.toys{
+    padding: 10px 30px;
+    text-align: justify;
+}
+.cert li{
+    padding: 10px 10px;
+    margin-left: 10px;
+    list-style-position: inside;
+}
+.cert ul li{
+    padding: 5px 10px;
+    list-style-type: none;
+}
+.share img{
+    text-align: center;
+}
+.clear{
+    clear: both;
 }
