@@ -15,7 +15,7 @@ export default class App extends React.Component {
             <div className='page'>
                 < Header />
                 { this.props.children }
-                { process.env.NODE_ENV !== 'production' ? <DevTools /> : null }
+                { NODE_ENV !== 'production' ? <DevTools /> : null }
                 < Footer />
             </div>
         );

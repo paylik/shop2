@@ -110,3 +110,10 @@ footer{
 .clear{
     clear: both;
 }
+@media handheld ,
+screen and (max-width: 700px )
+{
+    img {
+        max-width: 600px;
+    }
+}

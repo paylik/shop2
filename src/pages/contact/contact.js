@@ -19,7 +19,7 @@ export default class ContactPage extends React.Component {
                     <p>Наш магазин находится по адресу: г. Сморгонь, ул. Ленина д. 4</p>
 
                 <div>
-                    <iframe width={425} height={350} frameBorder={0} scrolling="no" marginHeight={0} marginWidth={0} src="http://www.openstreetmap.org/export/embed.html?bbox=26.400870680809025%2C54.48021471265457%2C26.40269458293915%2C54.48155952127111&layer=mapnik" style={{border: '1px solid black'}} /><br /><small><a href="http://www.openstreetmap.org/#map=19/54.48089/26.40178&layers=N">Посмотреть более крупную карту</a></small>
+                    <iframe width={425} height={350} frameBorder={0} scrolling="no" marginHeight={0} marginWidth={0} src="http://www.openstreetmap.org/export/embed.html?bbox=26.400870680809025%2C54.48021471265457%2C26.40269458293915%2C54.48155952127111&layer=mapnik" style={{border: '1px solid black'}} /><br /><small><a target='_blank' href="http://www.openstreetmap.org/#map=19/54.48089/26.40178&layers=N">Посмотреть более крупную карту</a></small>
                 </div>
 
                 <p>Ориентир: Кафе "Вместе", цокольный этаж, вход с правой стороны</p>
