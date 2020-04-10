@@ -20,6 +20,8 @@ export default class Header extends React.Component {
                     </div>
                     <div className='logo_swarovsky'><a href='img/swarovski-sertificat.jpg'><img src='img/Swarovski-logo.jpg' width={184} height={184} alt='logo' /></a></div>
                 </div>
+                <h2 style={{color:"red"}}> В связи со сложной эпидемиологической ситуацией магазин работает в четверг, пятницу и субботу.
+            </h2>
                 <nav> 
                  <ul>
                      <Link to='/'><li>Главная</li></Link>
@@ -40,7 +42,7 @@ export default class Header extends React.Component {
                                 <Link to='/jevely'><li><img src='img/jevely-small.jpg' width={62} height={30} />Китайская бижутерия</li></Link>
                                 <Link to='/clock'><li><img src='img/clock.jpg' width={62} height={30} />Часы</li></Link>
                                 <Link to='/purse'><li><img src='img/purse-small.jpg' width={62} height={30} />Кошельки</li></Link>
-                                <Link to='/box'><li><img src='img/money-box-small.jpg' width={60} height={30} />Копилки</li></Link>
+                                <Link to='/box'><li><img src='img/money-box-small.jpg' width={60} height={30} />Зонты</li></Link>
                                 <Link to='/gloves'><li><img src='img/gloves-small.jpg' width={62} height={30} />Перчатки и варешки</li></Link>
                                 <Link to='/certificate'><li><img src='img/sert.jpg' width={62} height={30} />Сертификаты</li></Link>
                             </ul>

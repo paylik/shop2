@@ -11,7 +11,7 @@ export default class Footer extends React.Component {
             <div>
                 <footer>
                     <p>Весь товар, представленный на нашем сайте вы можете преобрести в нашем магазине, <br/> который распологается по адресу г. Сморгонь, ул. Ленина 4, цокольный этаж.</p>
-                    <p>© 2017 <Link to = '/'>paylik.myjino.ru</Link></p>
+                    <p>© 2020 <Link to = '/'>shop.nbacademy.ru</Link></p>
                 </footer>
             </div>
         );
